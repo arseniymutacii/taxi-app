@@ -1,0 +1,25 @@
+# cборки и зависимости
+/build/
+/dist/
+/gradle/
+/node_modules/
+/.idea/
+/.vscode/
+*.iml
+
+# локальные конфиги
+/config/local.env
+/config/*.secret
+.env
+.env.*
+!.env.example
+
+# локальное хранилище реальных ключей
+/.local-secrets/
+
+# временные файлы и логи
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db

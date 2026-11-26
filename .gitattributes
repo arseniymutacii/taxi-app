@@ -1,0 +1,16 @@
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.js   text eol=lf
+*.json text eol=lf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+config/api_keys.json filter=mask_secrets
+
+*.png  binary
+*.jpg  binary
+*.keystore binary
+*.ttf  binary
+
+package-lock.json -diff linguist-generated=true
